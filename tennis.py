@@ -199,8 +199,8 @@ def show_start_screen():
     menu = pygame_menu.Menu('Tennis', 800, 600, theme=pygame_menu.themes.THEME_SOLARIZED)
     # Кнопки и надписи
     menu.add.label('Чтобы управлять нажимайте:')
-    menu.add.label('1 игрок w, s')
-    menu.add.label('2 игрок /\, \/')
+    menu.add.label('1й игрок w, s')
+    menu.add.label('2й игрок /\, \/')
     menu.add.button('Начать', main)
     menu.add.button('Выйти', pygame_menu.events.EXIT)
     menu.add.button('Сложность', show_complexity)
