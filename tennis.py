@@ -13,7 +13,7 @@ pg.display.set_caption('Tennis')
 current_difficulty = 5
 
 
-class LeftPlaswyer:
+class LeftPlayer:
     def __init__(self):
         self.img = pg.image.load('img/rect.png')
         self.sprite = pg.transform.scale(self.img, (30, 100))
